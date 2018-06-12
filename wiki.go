@@ -1,4 +1,4 @@
-package main
+package main // import "vimagination.zapto.org/wiki"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MJKWoolnough/memio"
-	"github.com/MJKWoolnough/pages"
+	"vimagination.zapto.org/memio"
+	"vimagination.zapto.org/pages"
 )
 
 func New(dir string, p *pages.Pages) http.Handler {
